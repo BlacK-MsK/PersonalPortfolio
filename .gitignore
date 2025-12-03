@@ -1,4 +1,6 @@
 node_modules/
-# .vscode/
 .dist/
 .env
+.vscode/
+ssh_file
+ssh_file.pub

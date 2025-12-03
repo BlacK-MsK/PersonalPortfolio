@@ -134,7 +134,7 @@ const Header: React.FC = () => {
 const Hero: React.FC = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
+    link.href = `${import.meta.env.BASE_URL}resume.pdf`;
     link.download = 'Sachin_Kumawat_Resume.pdf';
     document.body.appendChild(link);
     link.click();
@@ -168,7 +168,7 @@ const Hero: React.FC = () => {
           <div className="flex flex-wrap gap-4 mt-10">
             <Button variant="primary" onClick={() => document.getElementById('work')?.scrollIntoView({behavior: 'smooth'})}>VIEW BATTLE LOGS</Button>
             <Button variant="secondary" className="text-white border-black shadow-comic-white" onClick={handleDownload}>DOWNLOAD DOSSIER</Button>
-            <Button variant="outline" className="text-white border-white" onClick={() => document.getElementById('about')?.scrollIntoView({behavior: 'smooth'})}>CHECK STATS</Button>
+            {/* <Button variant="outline" className="text-white border-white" onClick={() => document.getElementById('about')?.scrollIntoView({behavior: 'smooth'})}>CHECK STATS</Button> */}
           </div>
         </FadeIn>
       </div>

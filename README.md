@@ -1,4 +1,4 @@
-# The Architect's Portfolio | DevFolio AI
+My Personal Portfolio Website
 
 A high-octane, anime-inspired personal portfolio website built with React, Tailwind CSS, and the Google Gemini API. This project transforms a standard developer portfolio into an interactive "Manga/Comic Book" experience, featuring a narrated AI assistant, hidden Easter eggs, and a unique "God Mode".
 
